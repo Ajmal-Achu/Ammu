@@ -29,7 +29,7 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
 *ғɪʟᴇ sɪᴢᴇ:* ${filesizeF}
 ${isLimit ? 'ᴜsᴇᴅ ': ''}
 *ᴡᴀɪᴛ ʏᴏᴜʀ sᴏɴɢ ɪs ᴜᴘʟᴏᴀᴅɪɴɢ...*
-`.trim(), m)
+`.trim(), watermark, m)
 let _thumb = {}
 try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
 catch (e) { }
