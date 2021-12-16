@@ -176,7 +176,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┊☞ ✅ *DATE* : ${date},
 ┊☞ 💝 *OWNER* : ⁨ꪶᴅᴇᴠɪʟꜱᴇʀꫂ
 ┊☞ 🖌️ *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
-┊☞ ☮️ *BOT NAME* : Ammu \n\`.trim(),
+┊☞ ☮️ *BOT NAME* : Ammu \n\ ___________________________`.trim(),
           "description": "© Ammu",
           "buttonText": "Click  Here",
           "listType": "SINGLE_SELECT",
